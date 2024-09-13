@@ -20,7 +20,7 @@ const Header = () => {
 
         <ul className='text-white lg:flex items-center hidden pr-10 '>
           <li>
-            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/">Beranda</Link>
+            <a className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/">Beranda</a>
           </li>
           <li>
             <a className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/TentangKami">Tentang Kami </a>

@@ -20,22 +20,22 @@ const Header = () => {
 
         <ul className='text-white lg:flex items-center hidden pr-10 '>
           <li>
-            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/">Beranda</Link>
+            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/">Beranda</Link>
           </li>
           <li>
-            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/TentangKami">Tentang Kami </Link>
+            <a className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/TentangKami">Tentang Kami </a>
           </li>
           <li>
-            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/Program">Program</Link>
+            <a className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/Program">Program</a>
           </li>
           <li>  
-            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/Berita">Berita</Link>
+            <a className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/Berita">Berita</a>
           </li>
           {/* <li>  
-            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/">Publikasi</Link>
+            <a className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' href="/">Publikasi</a>
           </li> */}
           <li>  
-            <Link className='font-kanit font-medium text-lg pr-10 ' to="/Kontak">Kontak</Link>
+            <a className='font-kanit font-medium text-lg pr-10 ' href="/Kontak">Kontak</a>
           </li>
         </ul>
         
@@ -44,22 +44,22 @@ const Header = () => {
         lg:hidden bg-[#588157] absolute w-full h-full pt-[9rem] py-24 z-[-1] duration-500 ${open ? 'left-0':'left-[-100%]' }
       `}>
           <li>
-            <Link className='pr-10 bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' to="/">Beranda</Link>
+            <a className='pr-10 bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' href="/">Beranda</a>
           </li>
           <li>
-            <Link className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' to="/">Tentang Kami</Link>
+            <a className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' href="/">Tentang Kami</a>
           </li>
           <li>
-            <Link className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' to="/">Program</Link>
+            <a className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' href="/">Program</a>
           </li>
           <li>
-            <Link className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' to="/">Berita</Link>
+            <a className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' href="/">Berita</a>
           </li>
           {/* <li>
-            <Link className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' to="/">Publikasi</Link>
+            <a className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' href="/">Publikasi</a>
           </li> */}
           <li>
-            <Link className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' to="/">Kontak</Link>
+            <a className='pr-10 w-full bg-[#588157] py-7 px-3 inline-block lg:cursor-pointer font-bold text-white' href="/">Kontak</a>
           </li>
         </ul>
     </div>

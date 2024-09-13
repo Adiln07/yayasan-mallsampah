@@ -3,7 +3,7 @@ import Mantap from "../../assets/img/Tentang Kami/mantap1.jpg"
 import { Link } from 'react-router-dom'
 const BeritaCard = ({judul, tanggal,url, deskripsi, id}) => {
   return (
-    <Link to={`/Berita-Content/${id}`}>
+    <a href={`/Berita-Content/${id}`}>
       <div className="m-auto   w-[20em] h-[28em]  text-black" >
             <img src={url} alt="" className="rounded-lg w-full h-[12em] " />
             <p className=" pl-2 pt-2 font-roboto">{tanggal}</p>
@@ -14,7 +14,7 @@ const BeritaCard = ({judul, tanggal,url, deskripsi, id}) => {
                 {deskripsi.substring(0,150)}
             </p>
         </div>
-    </Link>
+    </a>
     
   )
 }

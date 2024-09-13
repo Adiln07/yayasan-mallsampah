@@ -4,7 +4,7 @@ const LoginForm = () => {
   return (
     <div className="flex w-full justify-center items-center pt-12 font-inter">
             <div className="md:w-[30em] md:h-[25em] h-[21em]  w-[21em] bg-[#DAD7CD] align-middle m-auto rounded-xl">
-                <form action="" className="">
+                <form>
                     <div className="md:w-[27em] w-[20em]  m-auto md:mt-20 mt-10 flex flex-col gap-y-5">
                         <h1 className="md:text-4xl text-3xl text-[#3A5A40] font-bold ">
                             MASUK

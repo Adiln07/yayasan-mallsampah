@@ -3,11 +3,11 @@ import Beritautama from "../../assets/img/Berita/beritaUtama.jpg"
 import BeritaLainnya from './BeritaLainnya'
 import CardContainer from './CardContainer'
 
-const BeritaContainer = () => {
+const BeritaContainer = ({articless}) => {
   return (
-    <div className='bg-[#DAD7CD] '>
+    <div className='bg-[#DAD7CD]'>
         <div className='py-10'>
-            <div className='xl:w-[60em] xl:h-[35em] lg:w-[55em] lg:h-[30em] md:w-[45em] md:h-[25em] w-[20.5em] h-[15em] bg-cover m-auto rounded-xl' style={{
+            <div className='xl:w-[60em] xl:h-[35em] lg:w-[55em] lg:h-[30em] md:w-[45em] md:h-[25em] w-[20.5em] h-[15em] bg-white bg-cover m-auto rounded-xl' style={{
             backgroundImage: `url('${Beritautama}')`,
           }}>
             <div className="w-full h-full rounded-xl  "
@@ -23,7 +23,7 @@ const BeritaContainer = () => {
         </div>
 
         <BeritaLainnya />
-        <CardContainer />
+        <CardContainer articlesss={articless} />
     </div>
   )
 }

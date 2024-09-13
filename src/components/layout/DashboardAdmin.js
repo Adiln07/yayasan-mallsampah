@@ -7,7 +7,7 @@ const DashboardAdmin = ({ children }) => {
     <div>
       <main className="flex w-full ">
         <Sidebar />
-        <div className="flex flex-col items-center bg-[#E9E9E9] text-white basis-full flex-1 px-12">
+        <div className="flex flex-col items-center bg-[#DAD7CD] text-white basis-full flex-1 px-12">
           <HeaderAdmiin />
           {children}
         </div>

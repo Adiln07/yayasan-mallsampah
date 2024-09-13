@@ -18,12 +18,12 @@ function App() {
         <Route path='/TentangKami' element={<TentangKamiPage />} />
         <Route path='/Program' element={<ProgramPage />} />
         <Route path='/Berita' element={<BeritaPage />} />
-        <Route path='/Berita-Content' element={<BeritaContentPage />} />
+        <Route path='/Berita-Content/:id' element={<BeritaContentPage />} />
         <Route path="/Kontak" element={<Kontak />} />
         <Route path="/Login" element={<LoginAdmin />} />
         <Route path="/Tabel-Berita"  element={<ManajemenBerita />} />
         <Route path="/Form-Berita"  element={<Berita />} />
-        <Route path="/Edit-Form-Berita"  element={<EditBerita />} />
+        <Route path="/Edit-Form-Berita/:id"  element={<EditBerita />} />
       </Routes>
     </div>
   );

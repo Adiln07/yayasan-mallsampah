@@ -23,7 +23,7 @@ const Header = () => {
             <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/">Beranda</Link>
           </li>
           <li>
-            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/TentangKami">tentang Kami </Link>
+            <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/TentangKami">Tentang Kami </Link>
           </li>
           <li>
             <Link className='font-kanit font-medium text-lg lg:pr-10 xl:pr-14 ' to="/Program">Program</Link>

@@ -18,12 +18,11 @@ const ProgramContent = () => {
               Mall Sampah Box Penukaran Sampah
             </h1>
             <p className="lg:text-lg md:text-base text-sm text-justify pt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien
-              eget mi proin sed libero enim sed. Lobortis feugiat vivamus at
-              augue eget arcu dictum varius. Suspendisse ultrices gravida dictum
-              fusce ut placerat. Aliquam vestibulum morbi blandit cursus. Dictum
-              fusce ut placerat orci nulla. At tempor commodo{" "}
+              Mallsampah meluncurkan Ms Box, inovasi RVM tanpa listrik yang
+              bekerja sama dengan Kopi Soe di Makassar pada 7 Desember 2021.
+              Menggunakan aplikasi Mallsampah, Ms Box mengonversi botol plastik
+              menjadi Ms Point untuk ditukar dengan voucher. Ini mendukung
+              ekonomi sirkuler dengan memastikan botol plastik didaur ulang.
             </p>
           </div>
         </div>
@@ -38,12 +37,7 @@ const ProgramContent = () => {
               Mall Sampah dan Gojek Indonesia{" "}
             </h1>
             <p className="lg:text-lg md:text-base text-sm text-justify pt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien
-              eget mi proin sed libero enim sed. Lobortis feugiat vivamus at
-              augue eget arcu dictum varius. Suspendisse ultrices gravida dictum
-              fusce ut placerat. Aliquam vestibulum morbi blandit cursus. Dictum
-              fusce ut placerat orci nulla. At tempor commodo{" "}
+            Mallsampah dan Gojek, dua startup Indonesia, meluncurkan program 10 Ton Bottle Recycling Campaign pada 20 Maret 2021 di Makassar. Program ini mengajak pengguna GoFood untuk mendaur ulang botol plastik, di mana setiap pesanan GoFood mendaur ulang 10 botol plastik. Mereka juga bekerja sama dengan merchant GoFood untuk memilah dan mengumpulkan sampah plastik. Targetnya adalah mendaur ulang 10 ton sampah plastik dari wilayah pesisir Sulawesi. Upaya ini menggunakan aplikasi Mallsampah dan Gojek untuk memfasilitasi proses daur ulang.
             </p>
           </div>
         </div>
@@ -58,12 +52,13 @@ const ProgramContent = () => {
               Sinergi BUMN dan Green Tech{" "}
             </h1>
             <p className="lg:text-lg md:text-base text-sm text-justify pt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien
-              eget mi proin sed libero enim sed. Lobortis feugiat vivamus at
-              augue eget arcu dictum varius. Suspendisse ultrices gravida dictum
-              fusce ut placerat. Aliquam vestibulum morbi blandit cursus. Dictum
-              fusce ut placerat orci nulla. At tempor commodo{" "}
+              Pada 22 September 2021, PT Industri Kapal Indonesia (IKI) bersama
+              Mallsampah dan Guna Olah Limbah meluncurkan gerakan
+              #RecycleYourMask untuk mengatasi limbah masker. Didukung oleh
+              beberapa BUMN dan organisasi pemuda, gerakan ini mengajak karyawan
+              mengumpulkan masker bekas yang akan diolah menjadi bijih plastik.
+              Pada 29 Oktober 2021, bertepatan dengan HUT IKI ke-44, masker yang
+              terkumpul dikirim ke Bandung untuk didaur ulang.
             </p>
           </div>
         </div>
